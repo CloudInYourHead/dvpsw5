@@ -1,0 +1,8 @@
+helm template
+templates/api-deploy.yaml
+templates/api-svc.yaml
+templates/app-configmap.yaml
+templates/secret.yaml
+image.tag=build-802e329
+api.canary
+api.header
